@@ -34,7 +34,7 @@
 
                         <!--Botones esditar y eliminar -->
                         <td ><a href="editar.php?id=<?php echo $row['id']?>" class="btn btn-primary">Editar</a>
-                        <a href="eliminar.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a>
+                        <a href="delete.php?id=<?php echo $row['id']?>" class="btn btn-danger">Eliminar</a>
                         </td>
                     </tr>
             <?php } ?>
